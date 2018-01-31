@@ -1,0 +1,24 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cassandra-storage-proxy</groupId>
+  <name>cassandra-storage-proxy</name>
+  <artifactId>cassandra-storage-proxy</artifactId>
+
+  <version>0.0.1-SNAPSHOT</version>
+
+  <properties>
+  </properties>
+  <dependencies>
+      <dependency>
+          <groupId>org.apache.cassandra</groupId>
+          <artifactId>cassandra-all</artifactId>
+          <version>3.11.0</version>
+      </dependency>
+      <dependency>
+          <groupId>cassandra-storage-proxy</groupId>
+          <artifactId>cassandra-storage-proxy</artifactId>
+          <version>0.0.1-SNAPSHOT</version>
+      </dependency>
+  </dependencies>
+
+</project>
